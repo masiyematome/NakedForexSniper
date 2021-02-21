@@ -4,3 +4,53 @@
     margin : 0;
     font-family: 'Montserrat', sans-serif;
 }
+
+button {
+    outline: none;
+    border : none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+:root{
+    --blue-color :  #2f89fc;
+}
+
+/**Header part of the project starts here**/
+
+header{
+
+}
+
+.nav-bar{
+    padding : 8px 15px;
+    display : flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 4px 2px rgb(236, 236, 236);
+}
+
+.title-bar{
+    text-decoration: none;
+    font-size : 24px;
+    font-weight : 600;
+    color : var(--blue-color);
+}
+
+.navbar-toggler{
+    transform: scale(1.5,1);
+    font-size : 17px;
+    color : rgb(59, 59, 59);
+}
+
+/**The main part of the project starts here**/
+
+.back-to-top{
+    background-color : var(--blue-color);
+    font-size : 24px;
+    padding : 5px;
+    color : white;
+    position : fixed;
+    bottom : 2%;
+    right : 2%;
+    transform: scale(1.3,1);
+}
