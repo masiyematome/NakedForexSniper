@@ -13,13 +13,15 @@ button {
 }
 
 :root{
-    --blue-color :  #2f89fc;
+    --blue-color :  #10316b;
+    --orange-color : #f07b3f;
 }
 
 /**Header part of the project starts here**/
 
 header{
-
+    background-color : white;
+    z-index: 2;
 }
 
 .nav-bar{
@@ -123,4 +125,50 @@ header{
 
 .back-to-top:hover{
     background-color: #216aca;
+}
+
+.landing-page{
+    text-align : center;
+    padding : 35px 15px 70px;
+    position : relative;
+}
+
+.landing-page::after{
+    content :'';
+    background : url("pics/landingbackground.jpeg");
+    position : absolute;
+    top : 0;
+    left : 0;
+    bottom : 0;
+    right: 0;
+    opacity: 0.2;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    pointer-events: none;
+}
+
+.landing-page h1{
+    padding : 25px 0px 60px;
+    color : rgb(66, 66, 66);
+}
+
+.landing-page a{
+    font-size : 24px;
+    text-decoration: none;
+    color : white;
+    background-color: var(--blue-color);
+    padding : 8px;
+    transition : all ease 0.5s;
+}
+
+.landing-page a:hover{
+    background-color: transparent;
+    border : 2px solid var(--blue-color);
+    color : var(--blue-color)
+}
+
+.orange-text{
+    color : var(--orange-color);
 }
