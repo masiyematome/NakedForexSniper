@@ -283,3 +283,42 @@ header{
     padding : 35px 0px;
     font-size : 15px;
 }
+
+/**Footer**/
+
+/**Contact page**/
+
+.contact{
+    padding : 40px 15px;
+}
+
+.communication-channels{
+    text-align: center;
+    padding : 30px 0px 20px;
+}
+
+.communication-channel{
+    padding : 50px 0px 0px;
+}
+
+.communication-channel h4{
+    font-size : 20px;
+    color : var(--grey-color);
+    padding : 15px 0px;
+}
+
+.communication-channel i{
+    font-size : 60px;
+    color : var(--blue-color);
+}
+
+.footer-band{
+    padding : 4px 15px;
+    background-color : var(--blue-color)
+}
+
+.footer-band p{
+    font-size : 15px;
+    color : white;
+}
+
